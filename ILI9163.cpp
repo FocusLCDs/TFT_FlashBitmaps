@@ -12,7 +12,7 @@ Adapted register settings for the ILI9163 driver IC and tested on the ST Nucleo-
 #include "SPI.h"
 #include <Adafruit_SPITFT.h>
 #include <Adafruit_GFX.h>
-#define SPI_DEFAULT_FREQ 80000000 ///< Default SPI data clock frequency
+#define SPI_DEFAULT_FREQ 10000000 ///< Default SPI data clock frequency
 
 
 
