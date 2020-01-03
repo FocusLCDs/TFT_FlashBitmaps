@@ -84,7 +84,7 @@ class ILI9163 : public Adafruit_SPITFT {
  protected:
     uint8_t _colstart = 0, ///< Some displays need this changed to offset
             _rowstart = 0, ///< Some displays need this changed to offset
-            spiMode   = SPI_MODE2; ///< Certain display needs MODE3 instead was 0, 2 works
+            spiMode   = SPI_MODE0; 
 
     void    begin(uint32_t freq = 0);
     void    commonInit(const uint8_t *cmdList);
