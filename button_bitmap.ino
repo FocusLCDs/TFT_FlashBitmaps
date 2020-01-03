@@ -39,7 +39,7 @@ ILI9163 tft = ILI9163(TFT_w, TFT_h, TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST,
 float p = 3.1415926;
 
 void setup(void) {
-Serial.begin(250000);
+Serial.begin(115200);
 
   
 Serial.print(F("Hello World!"));
